@@ -1,0 +1,25 @@
+Appointment
+1.PatientName (Required)
+2.DoctoreId
+3. Description
+4.AppointmentDate (Required)
+5.AppointmentStartTime (Required)
+6.AppointmentEndTime (Required)
+7.TotalFees (Calculate Automatic base on the total Appointment Time and doctores fees   when the create a new Appointment)
+8.Paid Fees (It's not more than Total Fees)
+
+Doctores
+1.Name
+2.Fees (Per hours)
+3.Mobile Number 
+4.Expreance
+5.Speciality
+6.Code(Unique )(If already Exists in database then it's give the error Message)
+
+API
+1.Create e new doctore
+2.create a new Appointment 
+3.Get the All Apointment Details with below calculation
+	-> Remaining Fees
+	->Total AppointmentTime
+5. Delete a Appointment
