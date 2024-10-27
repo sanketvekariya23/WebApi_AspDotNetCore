@@ -38,7 +38,7 @@ namespace Login_Registor.Data
                 ConnectTimeout = 0,
                 DataSource = "DESKTOP-EBJT3NE\\SQLEXPRESS",
                 UserID = "sa",
-                Password = "Avni@003",
+                Password = "********",
                 InitialCatalog = "Sanket",
                 TrustServerCertificate = true,
                 MultipleActiveResultSets = true,
